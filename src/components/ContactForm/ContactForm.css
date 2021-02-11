@@ -1,0 +1,103 @@
+.AlertBtn {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: max-content;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #e08181;
+  border-radius: 6px;
+  border: none;
+  padding: 15px;
+}
+
+.Tytle {
+  margin: 0 0 20px 0;
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+}
+
+.Label {
+  font-size: 18px;
+  color: #32a3b1;
+}
+
+.Input {
+  width: 275px;
+  height: 40px;
+  background: #ebf5fc;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 20px;
+  font-size: 18px;
+  color: #32a3b1;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Input::placeholder {
+  color: #bdcada;
+}
+
+.Btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 40px;
+  background: #ebf5fc;
+  color: #32a3b1;
+  padding: 5px;
+  width: 70%;
+  height: 40px;
+  font-size: 18px;
+  margin: 0 auto 15px auto;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 1),
+    2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Btn:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.InputForm,
+.SubmitBtn {
+  width: 260px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.Alert-enter {
+  opacity: 0;
+  transform: translateY(0);
+}
+
+.Alert-enter-active {
+  opacity: 1;
+  transform: translateY(135%);
+  transition: all 250ms ease-in;
+}
+
+.Alert-exit {
+  opacity: 1;
+  transform: translateY(135%);
+}
+
+.Alert-exit-active {
+  opacity: 0;
+  transform: translateY(0);
+  transition: all 250ms ease-in;
+}

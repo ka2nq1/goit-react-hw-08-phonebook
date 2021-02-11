@@ -1,0 +1,59 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  align-items: center;
+  background: #ebf5fc;
+  margin: 20px auto;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Tytle {
+  color: #32a3b1;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.TitleTransition-appear-active {
+  animation: task 500ms ease-in alternate-reverse;
+}
+
+.FilterAnimation-enter {
+  opacity: 0;
+  transform: scale(0.1);
+}
+
+.FilterAnimation-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 250ms linear;
+}
+
+.FilterAnimation-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.FilterAnimation-exit-active {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 250ms linear;
+}
+
+@keyframes task {
+  0% {
+    transform: translateX(0);
+  }
+
+  30% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

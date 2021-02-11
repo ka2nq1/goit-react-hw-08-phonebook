@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "name": "Александр",
+      "number": "0667773377",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "name": "Rosie Simpson",
+      "number": "0667773377",
+      "completed": false,
+      "id": 2
+    }
+  ]
+}

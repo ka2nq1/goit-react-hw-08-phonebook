@@ -1,0 +1,48 @@
+.MenuContainer {
+  display: flex;
+  align-content: center;
+  margin-left: auto;
+}
+
+.AccountEmail {
+  height: max-content;
+  margin: auto 0;
+  font-size: 18px;
+  color: #32a3b1;
+}
+
+.account-avatar {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin: auto 10px;
+}
+
+.avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logout-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 40px;
+  background: #ebf5fc;
+  color: #32a3b1;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 1),
+    2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logout-btn:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.1);
+}

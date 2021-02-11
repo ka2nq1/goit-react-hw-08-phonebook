@@ -1,0 +1,50 @@
+.ListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactList {
+  padding: 0;
+  width: 280px;
+}
+
+.ListItem-enter-active {
+  animation: add 250ms ease-in alternate-reverse;
+}
+
+.ListItem-exit-active {
+  animation: delete 250ms ease-in;
+}
+
+@keyframes add {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    opacity: 1;
+    transform: translateY(-40%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+}
+
+@keyframes delete {
+  0% {
+    transform: translateX(0);
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-15%);
+  }
+}

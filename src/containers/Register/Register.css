@@ -1,0 +1,64 @@
+.RegisterContainer {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  align-items: center;
+  background: #ebf5fc;
+  margin: 20px auto;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.RegisterForm {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+}
+
+.RegisterLabel {
+  font-size: 18px;
+  color: #32a3b1;
+}
+
+.RegisterInput {
+  width: 275px;
+  height: 50px;
+  background: #ebf5fc;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #32a3b1;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.RegisterInput::placeholder {
+  color: #bdcada;
+}
+
+.RegisterBtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 40px;
+  background: #ebf5fc;
+  color: #32a3b1;
+  padding: 5px;
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  margin: 0 auto;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 1),
+    2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.RegisterBtn:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.1);
+}

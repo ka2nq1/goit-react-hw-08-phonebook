@@ -1,0 +1,26 @@
+.Header {
+  padding-bottom: 30px;
+}
+
+.Toolbar {
+  display: flex;
+  background: #ebf5fc;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Navigation-link {
+  display: block;
+  color: #bdcada;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.Navigation-link-active {
+  color: #32a3b1;
+}
